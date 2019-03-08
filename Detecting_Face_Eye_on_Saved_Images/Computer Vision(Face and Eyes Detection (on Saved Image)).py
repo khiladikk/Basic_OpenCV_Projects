@@ -20,7 +20,7 @@ eye_cascade = cv2.CascadeClassifier("haarcascade_eye.xml")
 
 
 # loading the image
-image = cv2.imread("heros.jpg")
+image = cv2.imread("sample.jpg")
 
 # converting the image to BGR to HSV
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
